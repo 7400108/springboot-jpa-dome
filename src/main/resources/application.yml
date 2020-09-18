@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root # 数据库账号
+    password:      # 数据库密码
+    url: jdbc:mysql://localhost:3306/你的数据库?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+  jpa:
+    hibernate:
+      ddl-auto: none # 设置不用模型生成数据库
+
+server:
+  port: 8082
+
